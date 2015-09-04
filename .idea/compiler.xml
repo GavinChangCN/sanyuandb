@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="springmvcdemo" />
       </profile>
+      <profile default="false" name="Annotation profile for sanyuandb" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="sanyuandb" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sanyuandb" target="1.8" />
       <module name="springmvcdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

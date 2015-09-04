@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace必须指向Dao接口 -->
-<mapper namespace="com.gavin.springmvcdemo.dao.IMenusDao">
+<mapper namespace="com.gavin.sanyuandb.dao.IMenusDao">
 
     <select id="getTitle" resultType="String" parameterType="int">
         SELECT m.title FROM menus m WHERE m.id=#{id}
     </select>
 
-    <select id="getList" resultType="com.gavin.springmvcdemo.model.Menus">
+    <select id="getList" resultType="com.gavin.sanyuandb.model.Menus">
         SELECT * FROM menus
     </select>
 
-    <select id="getByTitle" resultType="com.gavin.springmvcdemo.model.Menus"
-            parameterType="com.gavin.springmvcdemo.model.Menus">
+    <select id="getByTitle" resultType="com.gavin.sanyuandb.model.Menus"
+            parameterType="com.gavin.sanyuandb.model.Menus">
         SELECT * FROM menus
         WHERE title=#{title}
     </select>

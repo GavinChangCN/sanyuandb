@@ -1,7 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e0300db-dde9-48c1-a4e1-04fe492fc4d7" name="Default" comment="" />
+    <list default="true" id="7e0300db-dde9-48c1-a4e1-04fe492fc4d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\.idea\artifacts\springmvcdemo_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\.idea\artifacts\springmvcdemo_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\addController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\common\MenuParam.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\common\PageParam.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\FetchController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\HelpController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\addController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IMenusDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IProductsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IUsersDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Menus.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Products.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Users.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\MenusService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\ProductsService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\UsersService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\ConvertCharSet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\MD5Tool.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\SampleDateFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\menusMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\productsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\activation-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-codec-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\fastjson-1.2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\gson-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\http-server-servlet-2.5-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\http-server-servlet-3.0-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-annotations-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-core-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-databind-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-module-jaxb-annotations-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\javax.servlet.jsp.jstl-api-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jsoup-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\logback-classic-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\logback-core-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mail-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mybatis-3.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mybatis-spring-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mysql-connector-java-5.1.36.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\slf4j-api-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-aop-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-beans-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-context-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-core-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-expression-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-jdbc-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-tx-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-web-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-webmvc-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\tomcat-jdbc-7.0.63.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\tomcat-juli-7.0.63.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-api-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-core-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-utils-15-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-utils-api-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\add_product.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\fetch.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\get.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\help.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\images\alert-overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\images\arrow-up.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\add_menu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\jquery-2.1.4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\jquery-2.1.4.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/springmvcdemo/controller/addController.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/springmvcdemo/controller/addController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis/menusMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/menusMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis/productsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/productsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/sanyuan.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/sanyuan.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\springmvcdemo.iml" afterPath="$PROJECT_DIR$/sanyuandb.iml" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\common\MenuParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/MenuParam.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\common\PageParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/PageParam.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\FetchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/FetchController.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\HelpController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/HelpController.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IMenusDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IProductsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IUsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Menus.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Menus.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Products.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Users.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\MenusService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\ProductsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\ConvertCharSet.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/ConvertCharSet.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\MD5Tool.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MD5Tool.java" />
+      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\SampleDateFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java" />
+    </list>
     <ignored path="springmvcdemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +162,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/addController.java">
+      <file leaf-file-name="add_product.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10526316">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+            <state vertical-scroll-proportion="-6.3461537">
+              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="69" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#76#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,120 +206,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml">
+      <file leaf-file-name="ajaxfileupload.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.966666">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.7062635">
+              <caret line="208" column="95" selection-start-line="208" selection-start-column="95" selection-end-line="208" selection-end-column="95" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9375">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.15">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Products.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2666667">
-              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-              <folding>
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productsMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <marker date="1440945842214" expanded="true" signature="637:725" placeholder="select * fro..products..." />
-                <marker date="1440945842214" expanded="true" signature="851:1120" placeholder="SELECT * fro..products..." />
-                <marker date="1440945842214" expanded="true" signature="1380:1648" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menusMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <marker date="1440945466341" expanded="true" signature="311:355" placeholder="SELECT m.tit..menus..." />
-                <marker date="1440945466341" expanded="true" signature="454:473" placeholder="SELECT * FRO..menus..." />
-                <marker date="1440945466341" expanded="true" signature="639:687" placeholder="SELECT * FRO..menus..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenusService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/MenusService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testuoload.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,10 +242,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -181,7 +267,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/SampleDateFormat.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fetch.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp" />
         <option value="$PROJECT_DIR$/springmvcdemo.iml" />
@@ -203,12 +288,22 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/add_menu.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/Products.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Products.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/FileUploadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/addController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
+        <option value="$PROJECT_DIR$/.tern-project" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js" />
       </list>
     </option>
   </component>
@@ -238,19 +333,21 @@
   <component name="NamedScopeManager">
     <order />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1612" />
-    <option name="height" value="867" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -282,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +389,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb-v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb-v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb-v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,7 +469,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -320,7 +483,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -346,7 +509,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -376,7 +539,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,7 +565,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -428,7 +591,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -450,7 +613,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -472,7 +635,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -498,7 +661,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -514,7 +677,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -528,7 +691,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -544,7 +707,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,7 +717,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -570,37 +733,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -614,7 +747,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -630,7 +763,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -644,7 +777,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -660,41 +793,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,12 +807,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -718,11 +821,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\sanyuandb\utils" />
+      <recent name="D:\workspaces2015" />
+      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\js" />
       <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\WEB-INF\pages" />
       <recent name="D:\workspaces2015\springmvcdemo\src\main\java\com\gavin\springmvcdemo\utils" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\images" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\js" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\fonts\bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\WEB-INF" />
@@ -738,11 +841,11 @@
     <configuration default="false" name="IndexController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gavin.springmvcdemo.controller.*" />
+          <option name="PATTERN" value="com.gavin.sanyuandb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gavin.springmvcdemo.controller.IndexController" />
+      <option name="MAIN_CLASS_NAME" value="com.gavin.sanyuandb.controller.IndexController" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -751,7 +854,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springmvcdemo" />
+      <module name="sanyuandb" />
       <envs />
       <method />
     </configuration>
@@ -961,6 +1064,16 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1101,18 +1214,30 @@
       <workItem from="1440858856366" duration="7289000" />
       <workItem from="1440910561201" duration="3956000" />
       <workItem from="1440939284471" duration="8797000" />
+      <workItem from="1441029244374" duration="6211000" />
+      <workItem from="1441035656879" duration="1845000" />
+      <workItem from="1441378759088" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62655000" />
+    <option name="totallyTimeSpent" value="73697000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33013698" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1120,14 +1245,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3328767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33152908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21576227" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21520619" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21576227" sideWeight="0.50547945" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1138,6 +1262,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1160,34 +1285,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/MenusService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/IProductsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1204,14 +1301,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Products.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Menus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Menus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
@@ -1246,13 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1264,13 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvcdemo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1289,121 +1372,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/MD5Tool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MD5Tool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/FetchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/common/MenuParam.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/MenuParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/IUsersDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/ConvertCharSet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/ConvertCharSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Menus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Menus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#174#175#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/UsersService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26752505">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/SampleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc;n#add_menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/ProductsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/HelpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/IProductsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1414,26 +1441,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7777778">
           <caret line="1920" column="10" selection-start-line="1920" selection-start-column="10" selection-end-line="1920" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/common/PageParam.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/PageParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06535948">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1401#1402#0" expanded="false" />
+            <element signature="e#1431#1432#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1005#1006#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1442,7 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,6 +1526,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sanyuandb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/HelpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/FetchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1462,139 +1619,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3076925">
-          <caret line="104" column="32" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/IMenusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/MenusService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2666667">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1440945842214" expanded="true" signature="637:725" placeholder="select * fro..products..." />
-            <marker date="1440945842214" expanded="true" signature="851:1120" placeholder="SELECT * fro..products..." />
-            <marker date="1440945842214" expanded="true" signature="1380:1648" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <marker date="1440945466341" expanded="true" signature="311:355" placeholder="SELECT m.tit..menus..." />
-            <marker date="1440945466341" expanded="true" signature="454:473" placeholder="SELECT * FRO..menus..." />
-            <marker date="1440945466341" expanded="true" signature="639:687" placeholder="SELECT * FRO..menus..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9375">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.15">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6260997">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.966666">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.55401236">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="69" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#76#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/addController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.44060475">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22462203">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3461537">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7062635">
+          <caret line="208" column="95" selection-start-line="208" selection-start-column="95" selection-end-line="208" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,13 +1720,13 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="javaee-facet-resources" />
               <type id="library" />
               <type id="artifact" />
               <type id="jpa-descriptors" />
-              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited>springmvcdemo:war</last-edited>
+          <last-edited>sanyuandb:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1624,7 +1739,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (springmvcdemo)|Spring</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1659,7 +1774,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|springmvcdemo</last-edited>
+          <last-edited>Web|sanyuandb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
