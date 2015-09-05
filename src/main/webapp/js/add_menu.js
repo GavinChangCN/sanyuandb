@@ -20,8 +20,8 @@ function add_menu() {
                     location.reload(true);
                 }
             },
-            error    : function(data) {
-                alert('系统错误！');
+            error: function (data, status, e) {
+                alert(e + '\n\n系统错误！');
             }
         });
     }

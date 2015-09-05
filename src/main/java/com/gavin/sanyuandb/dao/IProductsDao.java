@@ -21,7 +21,7 @@ public interface IProductsDao {
      * 获得总产品数
      * @return 总产品数
      */
-    int getRowCount(@Param(value = "mid") int mid);
+    int getRowCount(@Param("mid")int mid);
 
     /**
      * 搜索全部产品，按时间顺序排序
@@ -42,5 +42,5 @@ public interface IProductsDao {
      * @param products
      * @return
      */
-    void insertProduct(@Param(value = "products")Products products);
+    void insertProduct(@Param("products")Products products);
 }

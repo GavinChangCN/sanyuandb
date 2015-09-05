@@ -6,6 +6,12 @@ var iconpath = "";
 var picpath = "";
 $(function () {
     $("#icon").change(function () {
+        $("#uploadicon").show();
+        $("#uploadicon").ajaxStart(function(){
+            $(this).show();
+        }).ajaxComplete(function(){
+            $(this).hide();
+        });
         $.ajaxFileUpload({
             url : "./uploadIcon",
             secureuri: false, //是否需要安全协议，一般设置为false
@@ -16,15 +22,24 @@ $(function () {
                 iconpath = data.path ;
                 $('#iconimg').attr('src',  '.' + iconpath) ;
                 $('#iconimg').show() ;
+                $("#uploadicon").hide();
             },
             error: function (data, status, e)//服务器响应失败处理函数
             {
                 alert('上传失败,错误代码如下！\n' + e);
+                $("#uploadicon").hide();
             }
         })
     });
 
     $("#pic").change(function () {
+        $("#uploadpic").show();
+        $("#uploadpic").ajaxStart(function(){
+            $(this).show();
+        }).ajaxComplete(function(){
+            $(this).hide();
+        });
+
         $.ajaxFileUpload({
             url : "./uploadPic",
             secureuri: false, //是否需要安全协议，一般设置为false
@@ -35,10 +50,12 @@ $(function () {
                 picpath = data.path ;
                 $('#picimg').attr('src', '.' + picpath) ;
                 $('#picimg').show() ;
+                $("#uploadpic").hide();
             },
             error: function (data, status, e)//服务器响应失败处理函数
             {
                 alert('上传失败,错误代码如下！\n' + e);
+                $("#uploadpic").hide();
             }
         })
     });
@@ -69,11 +86,11 @@ function saveProduct() {
                     video:video
             },
             datatype : "json",
-            success : function(data) {
+            success : function(data, status) {
                 location.href = "./index" ;
             },
-            error : function() {
-                alert('系统错误！');
+            error: function (data, status, e) {
+                alert(e + '\n\n系统错误！');
             }
         })
     }

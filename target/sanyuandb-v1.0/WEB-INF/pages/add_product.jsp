@@ -11,26 +11,7 @@
     <meta charset="UTF-8">
     <title>添加用户</title>
     <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <style>
-        body{
-            margin: 0 auto 0 auto;
-        }
-        input {
-            width: 200px;
-        }
-        textarea {
-            width: 200px;
-        }
-        td {
-            padding: auto 0 auto 0;
-            margin: auto 0 auto 0;
-        }
-        .tdlabel {
-            width: 240px;
-            text-align: right;
-            font-size: 16px;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="css/add_product.css">
 </head>
 <body>
 <div id="addMenuBody" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -79,18 +60,46 @@
         </tr>
         <tr>
             <td class="tdlabel">小图</td>
-            <td><img style="display: none;" id="iconimg" /><input id="icon" name="icon" type="file" placeholder="产品列表小图" /></td>
+            <td>
+                <%--图片上传动画--%>
+                <div id="uploadicon" class="uploading" style="display: none;">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <img class="addlogo" style="display: none;" id="iconimg" />
+                <input id="icon" name="icon" type="file" class="btn btn-info"/>
+            </td>
         </tr>
         <tr>
             <td class="tdlabel">大图</td>
-            <td><img style="display: none;" id="picimg"/><input id="pic" name="pic" type="file" placeholder="产品详情页图片" /></td>
+            <td>
+                <%--图片上传动画--%>
+                <div id="uploadpic" class="uploading" style="display: none;">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <img class="addpic" style="display: none;" id="picimg"/>
+                <input id="pic" name="pic" type="file" class="btn btn-primary"/>
+            </td>
         </tr>
         <tr>
             <td class="tdlabel">视频</td>
             <td><input id="video" name="video" type="text" class="form-control" style="width: 200px;" placeholder="请输入Youtube视频链接"/></td>
         </tr>
     </table>
-        <div align="center"><input type="button" class="btn btn-danger" value="保存" onclick="saveProduct()" /></div>
+    <div align="center"><input type="button" class="btn btn-danger" value="保存" onclick="saveProduct()" /></div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/ajaxfileupload.js"></script>

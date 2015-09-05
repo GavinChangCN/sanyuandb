@@ -2,144 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0300db-dde9-48c1-a4e1-04fe492fc4d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\.idea\artifacts\springmvcdemo_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\.idea\artifacts\springmvcdemo_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\addController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\common\MenuParam.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\common\PageParam.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\FetchController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\HelpController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\controller\addController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IMenusDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IProductsDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\dao\IUsersDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Menus.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Products.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\model\Users.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\MenusService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\ProductsService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\service\UsersService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\ConvertCharSet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\MD5Tool.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\com\gavin\springmvcdemo\utils\SampleDateFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\config.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\menusMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\classes\mybatis\productsMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\activation-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-lang-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\fastjson-1.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\gson-2.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\http-server-servlet-2.5-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\http-server-servlet-3.0-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-annotations-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-core-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-databind-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jackson-module-jaxb-annotations-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\javax.servlet.jsp.jstl-api-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\jsoup-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\logback-classic-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\logback-core-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mail-1.4.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mybatis-3.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mybatis-spring-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\mysql-connector-java-5.1.36.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\slf4j-api-1.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-aop-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-beans-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-context-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-core-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-expression-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-jdbc-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-tx-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-web-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\spring-webmvc-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\tomcat-jdbc-7.0.63.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\tomcat-juli-7.0.63.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-api-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-core-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-utils-15-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\lib\trap-utils-api-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\add_product.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\fetch.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\get.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\help.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\springmvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\css\bootstrap\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\fonts\bootstrap\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\images\alert-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\images\arrow-up.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\add_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\bootstrap\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\jquery-2.1.4.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces2015\sanyuandb\target\springmvcdemo-v1.0\js\jquery-2.1.4.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/springmvcdemo/controller/addController.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/springmvcdemo/controller/addController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loaders/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/bootstrap_colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/xeditable/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/flags/flags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont_2d2816fe.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bootstrap/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bootstrap/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/bootstrap_colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/dynatree/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/dynatree/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/xeditable/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-bold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-bold-webfont_2d2816fe.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-regular-webfont_2d2816fe.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/bootstrap_colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/select2/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/select2/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/plugins/select2/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-bg_glass_75_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery_ui/ui-icons_f6cf3b_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MySql5Dialect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MySql5PageHepler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/add_product.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/validate/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootbox/bootbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/bootstrap_colorpicker/bootstrap-colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/datatables/bootstrap-datatable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/bootstrap_daterangepicker/bootstrap-daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_daterangepicker/bootstrap-daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_datetimepicker/bootstrap-datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/bootstrap_datetimepicker/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/xeditable/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/xeditable/bootstrap-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileinput/bootstrap-fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/input_mask/bootstrap-inputmask.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_maxlength/bootstrap-maxlength.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/bootstrap_switch/bootstrap-switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/tabdrop/bootstrap-tabdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/common/bootstrap-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/common/bootstrap-wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_switch/bootstrapSwitch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/canvas-to-blob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/charCount/charCount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/flags/flags.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/flot/flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/flot/flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/flot/flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/forgot_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/inplace_editing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery_ui/jquery-ui-1.10.0.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery_ui/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/autosize/jquery.autosize-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/datatables/jquery.dataTables.columnFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/datatables/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/dynatree/jquery.dynatree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/jquery.fileupload-fp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/jquery.fileupload-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/jquery_fileupload/jquery.fileupload-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/jquery.fileupload-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/jquery.fileupload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/jquery.iframe-transport.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/jgrowl/jquery.jgrowl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/jgrowl/jquery.jgrowl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/mobile_events/jquery.mobile-events.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/jquery.mockjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/nestable/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/sparklines/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/timeago/jquery.timeago.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery_ui/jquery.ui.1.10.0.ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/light-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/load-image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/utils/md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/mention/mention.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/mention/mention.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/modernizr/modernizr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_daterangepicker/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-bold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/montserrat-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/naked_password/naked_password-0.2.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/retina/retina.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/select2/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sign_in.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/signin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/slider_nav/slidernav-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/slider_nav/slidernav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/tabdrop/tabdrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/tables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fileupload/tmpl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap_hover_dropdown/twitter-bootstrap-hover-dropdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/dynatree/ui.dynatree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/usersMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/utils/webstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/fuelux/wizard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/fuelux/wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/xeditable/wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/common/wysihtml5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/dao/IMenusDao.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/dao/IMenusDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/dao/IMenusDao.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/dao/IMenusDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/dao/IUsersDao.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/dao/IUsersDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/dao/IUsersDao.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/dao/IUsersDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/model/Products.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/model/Products.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/model/Products.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/model/Products.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/service/ProductsService.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/service/ProductsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/service/ProductsService.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/service/ProductsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/model/Users.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/model/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/model/Users.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/model/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/service/UsersService.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/service/UsersService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/service/UsersService.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/service/UsersService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/controller/addController.class" afterPath="$PROJECT_DIR$/target/classes/com/gavin/sanyuandb/controller/addController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/controller/addController.class" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/sanyuandb/controller/addController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/add_menu.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/add_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/add_menu.js" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/add_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/add_product.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/add_product.js" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/add_product.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/pages/add_product.jsp" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/pages/add_product.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis/config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/config.xml" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/index.js" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/pages/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis/menusMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/menusMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/menusMapper.xml" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/menusMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis/productsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/productsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/productsMapper.xml" afterPath="$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/mybatis/productsMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/sanyuan.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/sanyuan.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\springmvcdemo.iml" afterPath="$PROJECT_DIR$/sanyuandb.iml" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\common\MenuParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/MenuParam.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\common\PageParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/PageParam.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\FetchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/FetchController.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\HelpController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/HelpController.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\controller\IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IMenusDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IProductsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\dao\IUsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Menus.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Menus.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Products.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\model\Users.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\MenusService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\ProductsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\service\UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\ConvertCharSet.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/ConvertCharSet.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\MD5Tool.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MD5Tool.java" />
-      <change type="MOVED" beforePath="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\springmvcdemo\utils\SampleDateFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java" />
     </list>
     <ignored path="springmvcdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,33 +224,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add_product.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3461537">
-              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="69" selection-end-column="14" />
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
-                <element signature="e#0#76#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="4.1666665">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-responsive.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap/bootstrap-responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenusService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelpController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/HelpController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,39 +306,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxfileupload.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7062635">
-              <caret line="208" column="95" selection-start-line="208" selection-start-column="95" selection-end-line="208" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
+      <file leaf-file-name="FetchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/FetchController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testuoload.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp">
+      <file leaf-file-name="UsersService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,6 +347,7 @@
       <list>
         <option value="Interface" />
         <option value="JavaScript File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -258,24 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/test/testgetmenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/helpController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/menus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/products.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/fetchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/MenusDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/Products.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/SampleDateFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fetch.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp" />
-        <option value="$PROJECT_DIR$/springmvcdemo.iml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/common/MenuParm.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_products.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/UsersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/FetchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/HelpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/common/PageParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/Menus.java" />
@@ -284,26 +371,49 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/MenusService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/dao/IProductsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/service/ProductsService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/add_menu.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/entity/Products.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/model/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/utils/FileUploadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/springmvcdemo/controller/addController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
         <option value="$PROJECT_DIR$/.tern-project" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MySql5Dialect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/PaginationResultSetHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/add_product.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/light-theme.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/plugins/dynatree/ui.dynatree.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/theme.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/forgot_password.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/add_product.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/add_menu.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/signin.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/webstorage.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/md5.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sign_in.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/usersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -332,6 +442,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -363,6 +476,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -380,100 +494,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb-v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb-v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb-v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,7 +601,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,6 +628,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springmvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanyuandb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -710,6 +790,10 @@
               <option name="myItemId" value="sanyuandb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -734,10 +818,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sanyuandb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,15 +883,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../H5WebStorage" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -821,13 +900,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspaces2015\sanyuandb\src\main\java\com\gavin\sanyuandb\utils" />
-      <recent name="D:\workspaces2015" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\js" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\workspaces2015\springmvcdemo\src\main\java\com\gavin\springmvcdemo\utils" />
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\css\bootstrap" />
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\js" />
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\images" />
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\sanyuandb\src\main\webapp\js\utils" />
       <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\WEB-INF" />
       <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp" />
       <recent name="D:\workspaces2015\springmvcdemo\src\main\webapp\css\bootstrap" />
@@ -1148,6 +1228,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -1180,8 +1263,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.sanyuan" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IndexController" />
+      <item index="0" class="java.lang.String" itemvalue="Application.IndexController" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.sanyuan" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1217,11 +1300,13 @@
       <workItem from="1441029244374" duration="6211000" />
       <workItem from="1441035656879" duration="1845000" />
       <workItem from="1441378759088" duration="2986000" />
+      <workItem from="1441427399292" duration="3774000" />
+      <workItem from="1441460218618" duration="10600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73697000" />
+    <option name="totallyTimeSpent" value="88071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1233,36 +1318,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33013698" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28146145" sideWeight="0.5025773" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33152908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28146145" sideWeight="0.4974227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21520619" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21520619" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21576227" sideWeight="0.50547945" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38294992" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21576227" sideWeight="0.50547945" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991881" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1277,7 +1362,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1285,128 +1372,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="208" column="95" selection-start-line="208" selection-start-column="95" selection-end-line="208" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Menus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.1">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/get.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.6/fastjson-1.2.6.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0666666">
-          <caret line="568" column="31" selection-start-line="568" selection-start-column="31" selection-end-line="568" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fetch.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java">
+    <entry file="jar://C:/Java/jdk1.8.0_51/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MD5Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/MenuParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.33189654">
+          <caret line="473" column="11" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="11" />
           <folding>
-            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#19296#19297#0" expanded="false" />
+            <element signature="e#19379#19380#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java">
+    <entry file="file://$PROJECT_DIR$/target/sanyuandb-v1.0/WEB-INF/classes/com/gavin/springmvcdemo/controller/IndexController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.109913796">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/ConvertCharSet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/MySql5Dialect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,82 +1447,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26752505">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.1.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7777778">
-          <caret line="1920" column="10" selection-start-line="1920" selection-start-column="10" selection-end-line="1920" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/common/PageParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06535948">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1401#1402#0" expanded="false" />
-            <element signature="e#1431#1432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IMenusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Products.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        <state vertical-scroll-proportion="-45.633335">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
           <folding>
-            <element signature="e#528#529#0" expanded="false" />
-            <element signature="e#544#545#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-            <element signature="e#949#950#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1005#1006#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1118#1119#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+            <element signature="e#737#738#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1007#1008#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1180#1181#0" expanded="false" />
+            <element signature="e#1232#1233#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_51/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5666666">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_51/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_51/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43965518">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.033334">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#675#676#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/add_product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="82" column="76" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery_ui/jquery.ui.1.10.0.ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/demo/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/html5shiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/light-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1273" column="228" selection-start-line="1273" selection-start-column="228" selection-end-line="1273" selection-end-column="228" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/plugins/dynatree/ui.dynatree.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/forgot_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.741573">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#76#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1503,86 +1655,124 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="42" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1441468297928" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc;n#signin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/utils/md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/utils/webstorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc;n#saveStorage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sign_in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.769231">
+          <caret line="215" column="55" selection-start-line="215" selection-start-column="55" selection-end-line="215" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.767857">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/productsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sanyuandb.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/utils/SampleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="57" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
+            <marker date="1441465287499" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1441465287499" expanded="true" signature="-1:-1" placeholder="SELECT * fro..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/help.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/usersMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <marker date="1441469846474" expanded="true" signature="-1:-1" placeholder="SELECT count..." />
+            <marker date="1441469846474" expanded="true" signature="-1:-1" placeholder="SELECT u.pwd..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1441432282755" expanded="true" signature="-1:-1" placeholder="SELECT m.tit..." />
+            <marker date="1441432282755" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1441432282755" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1441432282755" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IUsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1595,6 +1785,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/FetchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1603,112 +1801,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/menusMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/ProductsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6260997">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55401236">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/add_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="69" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#76#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/addController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44060475">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/dao/IProductsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22462203">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3461537">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding />
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/testuoload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/uploadController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/service/MenusService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/sanyuandb/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7062635">
-          <caret line="208" column="95" selection-start-line="208" selection-start-column="95" selection-end-line="208" selection-end-column="95" />
+        <state vertical-scroll-proportion="4.1666665">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

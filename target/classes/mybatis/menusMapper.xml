@@ -4,23 +4,19 @@
 <mapper namespace="com.gavin.sanyuandb.dao.IMenusDao">
 
     <select id="getTitle" resultType="String" parameterType="int">
-        SELECT m.title FROM menus m WHERE m.id=#{id}
+        SELECT m.title FROM `menus` AS m WHERE m.id=#{id}
     </select>
 
     <select id="getList" resultType="com.gavin.sanyuandb.model.Menus">
-        SELECT * FROM menus
+        SELECT * FROM `menus`
     </select>
 
-    <select id="getByTitle" resultType="com.gavin.sanyuandb.model.Menus"
-            parameterType="com.gavin.sanyuandb.model.Menus">
-        SELECT * FROM menus
-        WHERE title=#{title}
+    <select id="getByTitle" resultType="com.gavin.sanyuandb.model.Menus">
+        SELECT * FROM `menus` AS  m
+        WHERE m.title=#{title}
     </select>
 
     <insert id="addMenu" keyProperty="id" useGeneratedKeys="true">
-      <selectKey resultType="int" keyProperty="id" order="BEFORE">
-          SELECT LAST_INSERT_ID()
-      </selectKey>
-        INSERT INTO menus (title) VALUES (#{menus.title})
+        INSERT INTO `menus` (title) VALUES (#{menus.title})
     </insert>
 </mapper>

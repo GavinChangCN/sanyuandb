@@ -22,7 +22,7 @@ public interface IMenusDao {
      * @param id
      * @return 分类名称
      */
-    String getTitle(int id);
+    String getTitle(@Param("id")int id);
 
     /**
      * 得到全部分类
@@ -35,11 +35,11 @@ public interface IMenusDao {
      * @param menus
      * @return
      */
-    Menus getByTitle(Menus menus);
+    Menus getByTitle(@Param("menus")Menus menus);
 
     /**
      * 添加分类，返回分类ID
      * @param menus
      */
-    void addMenu(@Param(value = "menus")Menus menus);
+    void addMenu(@Param("menus")Menus menus);
 }

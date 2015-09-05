@@ -35,9 +35,13 @@ public class IndexController {
 		try {
 			mid = Integer.parseInt(midstr);
 		} catch (Exception e) {
+			mid = 0;
 		}
 
 		// 获取总记录数
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n");
+		System.out.println("获取的mid值为：" + mid);
+		System.out.println("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		int rowCount = productsService.getRowCount(mid);
 		PageParam pageParam = new PageParam();
 		pageParam.setRowCount(rowCount);

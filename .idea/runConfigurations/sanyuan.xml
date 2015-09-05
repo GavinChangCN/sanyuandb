@@ -1,18 +1,20 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="sanyuan" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.63" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sanyuandb/index" />
+    <option name="OPEN_IN_BROWSER_URL" value="http://localhost/hello" />
     <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+    <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
     <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
     <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
     <deployment>
       <artifact name="sanyuandb:war exploded">
         <settings>
-          <option name="CONTEXT_PATH" value="/sanyuandb" />
+          <option name="CONTEXT_PATH" value="/" />
         </settings>
       </artifact>
     </deployment>
     <server-settings>
       <option name="BASE_DIRECTORY_NAME" value="Unnamed_springmvcdemo" />
+      <option name="HTTP_PORT" value="80" />
     </server-settings>
     <predefined_log_file id="Tomcat" enabled="true" />
     <predefined_log_file id="Tomcat Catalina" enabled="true" />

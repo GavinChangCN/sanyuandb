@@ -15,13 +15,13 @@ public class Products {
 	public Products() {
 	}
 
-	public Products(int mid, String pdesc, String icon, String pic, String video, Timestamp timestamp) {
+	public Products(int mid, String pdesc, String icon, String pic, String video, Timestamp createtime) {
 		this.mid = mid;
 		this.pdesc = pdesc;
 		this.icon = icon;
 		this.pic = pic;
 		this.video = video;
-		this.createtime = timestamp;
+		this.createtime = createtime;
 	}
 
 	public int getId() {
@@ -64,20 +64,20 @@ public class Products {
 		this.pic = pic;
 	}
 
-	public Timestamp getCreatetime() {
-		return createtime;
-	}
-
-	public void setCreatetime(Timestamp createtime) {
-		this.createtime = createtime;
-	}
-
 	public String getVideo() {
 		return video;
 	}
 
 	public void setVideo(String video) {
 		this.video = video;
+	}
+
+	public Timestamp getCreatetime() {
+		return createtime;
+	}
+
+	public void setCreatetime(Timestamp createtime) {
+		this.createtime = createtime;
 	}
 
 	@Override

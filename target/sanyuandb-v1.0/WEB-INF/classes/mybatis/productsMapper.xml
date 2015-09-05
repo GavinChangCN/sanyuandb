@@ -4,51 +4,61 @@
 <mapper namespace="com.gavin.sanyuandb.dao.IProductsDao">
 
     <select id="getRowCount" resultType="Integer">
-        select count(*) from products
+        SELECT
+          COUNT(*)
+        FROM
+          `products` AS p
         <where>
             <if test="mid == 0">
                 1=1
             </if>
             <if test="mid > 0">
-                mid=#{mid}
+                p.mid=#{mid}
             </if>
         </where>
     </select>
 
     <select id="selectByParams" resultType="com.gavin.sanyuandb.model.Products" parameterType="map">
-        select * from products
-        order by createtime desc
+        SELECT * FROM `products` AS p
+        ORDER p.createtime DESC
         limit ${offset}, ${size}
     </select>
 
     <select id="selectByMid" resultType="com.gavin.sanyuandb.model.Products" parameterType="map">
-        SELECT * from products
+        SELECT * from `products` AS p
         <where>
             <if test="mid == 0">
                 1=1
             </if>
             <if test="mid > 0">
-                mid=#{mid}
+                p.mid=#{mid}
             </if>
         </where>
-        ORDER BY createtime DESC
+        ORDER BY p.createtime DESC
         limit ${offset}, ${size}
     </select>
 
-    <insert id="insertProduct" statementType="PREPARED"
-            keyProperty="id" useGeneratedKeys="true">
-        <selectKey resultType="int" keyProperty="id" order="BEFORE">
+    <insert id="insertProduct" keyProperty="id" useGeneratedKeys="true">
+        <selectKey keyProperty="id" resultType="int" order="BEFORE">
             SELECT LAST_INSERT_ID()
         </selectKey>
-        INSERT INTO
-          products(mid, pdesc, icon, pic, video, createtime)
+        INSERT INTO `products`(
+          id,
+          mid,
+          pdesc,
+          icon,
+          pic,
+          video,
+          createtime
+        )
         VALUES (
-         ${products.mid},
-         ${products.pdesc},
-         ${products.icon},
-         ${products.pic},
-         ${products.video},
-         ${products.createtime}
+          #{products.id,jdbcType=INTEGER},
+          #{products.mid,jdbcType=INTEGER},
+          #{products.pdesc,jdbcType=VARCHAR},
+          #{products.icon,jdbcType=VARCHAR},
+          #{products.pic,jdbcType=VARCHAR},
+          #{products.video,jdbcType=VARCHAR},
+          #{products.createtime,jdbcType=TIMESTAMP}
         )
     </insert>
 

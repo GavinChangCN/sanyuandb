@@ -11,14 +11,14 @@ public class Users {
 
     private int id;
     private String name;
-    private String password;
+    private String pwd;
 
     public Users() {
     }
 
-    public Users(String name, String password) {
+    public Users(String name, String pwd) {
         this.name = name;
-        this.password = password;
+        this.pwd = pwd;
     }
 
     public int getId() {
@@ -37,12 +37,12 @@ public class Users {
         this.name = name;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPwd() {
+        return pwd;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
     }
 
     @Override
@@ -50,7 +50,7 @@ public class Users {
         return "Users{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
+                ", pwd='" + pwd + '\'' +
                 '}';
     }
 }

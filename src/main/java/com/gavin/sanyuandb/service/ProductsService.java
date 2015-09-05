@@ -61,8 +61,7 @@ public class ProductsService {
     }
 
     // 插入新产品
-    public Products addProduct(Products products) {
+    public void addProduct(Products products) {
         ipdao.insertProduct(products) ;
-        return products;
     }
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="com.gavin.sanyuandb.dao.IUsersDao">
+    <select id="getByAccount" resultType="boolean">
+        SELECT count(id) FROM `users` AS u where u.`name` = ${name}
+    </select>
+
+    <select id="selectPwdByAccount" resultType="String">
+        SELECT u.pwd FROM `users` AS u WHERE u.`name` = ${name}
+    </select>
+</mapper>

@@ -18,7 +18,7 @@ $(function(){
     var $menuselect = $('#menuselect');
     $menuselect.change(function(){
         smid = $(this).children('option:selected').val();
-        location.href='./index.html?mid='+ smid + '&page=1';
+        location.href='./index?mid='+ smid + '&page=1';
     });
     var len = $('#menuselect option').length;
     $('#menuselect option').each(function(){
